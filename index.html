@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!--
+  ================================================================
+  LAW OFFICE OF JOSEPH D. GRISANTI · jgrisantilaw.com
+  ================================================================
+  Built as a NJ RPC 7.1-7.5 compliant attorney website.
+  Companion strategic brief: see HANDOFF.md
+  ----------------------------------------------------------------
+  BEFORE GOING LIVE — required inputs from Joseph:
+    [ ] Headshot photo  → see "HEADSHOT PLACEHOLDER" below
+    [ ] Intake email    → search "info@jgrisantilaw.com" (1 spot)
+    [ ] Year of NJ Bar admission + any federal admissions
+    [ ] Confirm "30+ years" or replace with exact founding year
+    [ ] Production OG image at /og-image.jpg (1200x630 .jpg) for
+        link-preview cards in SMS, iMessage, Slack, LinkedIn
+  ----------------------------------------------------------------
+  BEFORE GOING LIVE — recommended:
+    [ ] Add Google Analytics 4 (or Plausible) snippet above </head>
+    [ ] Claim and optimize Google Business Profile for Brick, NJ
+    [ ] Replace contact-form mailto handoff with Formspree or
+        Netlify Forms for proper submission UX (see HANDOFF.md)
+  ----------------------------------------------------------------
+  Canonical + og:url are set to https://www.jgrisantilaw.com/ —
+  update if launching on a different domain.
+  ================================================================
+-->
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="format-detection" content="telephone=no">
+<title>Law Office of Joseph D. Grisanti · Brick, NJ Attorney | 732-534-9005</title>
+<meta name="description" content="Law Office of Joseph D. Grisanti — a former FBI Agent and former Prosecutor with 30+ years of experience. Municipal court &amp; DWI defense, real estate, wills &amp; estate planning, personal injury. Brick, New Jersey. Free initial consultations · 732-534-9005.">
+<meta name="theme-color" content="#0E1318">
+<meta name="author" content="Joseph D. Grisanti, Esq.">
+<meta name="robots" content="index, follow">
+<meta name="geo.region" content="US-NJ">
+<meta name="geo.placename" content="Brick, New Jersey">
+<meta name="geo.position" content="40.0762;-74.1093">
+<meta name="ICBM" content="40.0762, -74.1093">
+<link rel="canonical" href="https://www.jgrisantilaw.com/">
+
+<!-- Open Graph / SMS &amp; social link previews
+     NOTE: og-image.jpg must exist at the production domain root
+     before launch. Recommended: 1200×630 .jpg under 1MB,
+     showing firm name + Brick, NJ + phone. -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Law Office of Joseph D. Grisanti">
+<meta property="og:title" content="Law Office of Joseph D. Grisanti · Brick, NJ Attorney">
+<meta property="og:description" content="Former FBI Agent. Former Prosecutor. 30+ years representing Ocean County clients in municipal court, real estate, estate planning, and personal injury. Free consultations.">
+<meta property="og:url" content="https://www.jgrisantilaw.com/">
+<meta property="og:image" content="https://www.jgrisantilaw.com/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Law Office of Joseph D. Grisanti · Brick, NJ Attorney">
+<meta name="twitter:description" content="Former FBI Agent. Former Prosecutor. 30+ years of experience. Free consultations · 732-534-9005.">
+<meta name="twitter:image" content="https://www.jgrisantilaw.com/og-image.jpg">
+
+<!-- Inline SVG favicon (monogram G in oxblood on cream) -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='12' fill='%23EFE9DD'/%3E%3Ctext x='50' y='73' font-family='Georgia,serif' font-size='66' fill='%237A1F1F' text-anchor='middle' font-weight='500' font-style='italic'%3EG%3C/text%3E%3C/svg%3E">
+<link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='12' fill='%23EFE9DD'/%3E%3Ctext x='50' y='73' font-family='Georgia,serif' font-size='66' fill='%237A1F1F' text-anchor='middle' font-weight='500' font-style='italic'%3EG%3C/text%3E%3C/svg%3E">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Newsreader:ital,opsz,wght@0,6..72,300..700;1,6..72,300..700&display=swap">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Newsreader:ital,opsz,wght@0,6..72,300..700;1,6..72,300..700&display=swap" rel="stylesheet">
+
+<!-- Schema.org Attorney / LegalService structured data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Attorney",
+  "@id": "https://www.jgrisantilaw.com/#attorney",
+  "name": "Law Office of Joseph D. Grisanti",
+  "alternateName": "Joseph D. Grisanti, Esq.",
+  "description": "Solo law practice in Brick, New Jersey. Founder Joseph D. Grisanti is a former FBI Special Agent and former Prosecutor with 30+ years of experience in municipal court defense, DWI, real estate, estate planning, and personal injury.",
+  "url": "https://www.jgrisantilaw.com/",
+  "telephone": "+1-732-534-9005",
+  "faxNumber": "+1-732-534-9006",
+  "priceRange": "$$",
+  "image": "https://www.jgrisantilaw.com/og-image.jpg",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "1808 Route 88 East",
+    "addressLocality": "Brick",
+    "addressRegion": "NJ",
+    "postalCode": "08724",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 40.0762,
+    "longitude": -74.1093
+  },
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+    "opens": "09:00",
+    "closes": "17:00"
+  }],
+  "founder": {
+    "@type": "Person",
+    "name": "Joseph D. Grisanti",
+    "jobTitle": "Attorney at Law",
+    "honorificSuffix": "Esq."
+  },
+  "areaServed": [
+    {"@type": "AdministrativeArea", "name": "Ocean County, New Jersey"},
+    {"@type": "City", "name": "Brick, NJ"},
+    {"@type": "City", "name": "Toms River, NJ"},
+    {"@type": "City", "name": "Point Pleasant, NJ"},
+    {"@type": "City", "name": "Lakewood, NJ"},
+    {"@type": "City", "name": "Jackson, NJ"},
+    {"@type": "City", "name": "Manahawkin, NJ"},
+    {"@type": "City", "name": "Wall, NJ"},
+    {"@type": "City", "name": "Howell, NJ"},
+    {"@type": "City", "name": "Lavallette, NJ"},
+    {"@type": "City", "name": "Seaside Heights, NJ"}
+  ],
+  "knowsAbout": [
+    "Municipal Court Defense",
+    "DWI / DUI Defense",
+    "Traffic Violations",
+    "Possession of CDS",
+    "Disorderly Persons Offenses",
+    "Residential Real Estate",
+    "Commercial Real Estate",
+    "Real Estate Closings",
+    "Wills",
+    "Powers of Attorney",
+    "Living Wills",
+    "Estate Planning",
+    "Personal Injury",
+    "Workplace Injury",
+    "Negligence Claims"
+  ],
+  "makesOffer": [
+    {"@type": "Offer", "name": "Free Initial Consultation", "price": "0", "priceCurrency": "USD"}
+  ]
+}
+</script>
+
+<!-- FAQ structured data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type":"Question","name":"What happens during a free initial consultation?","acceptedAnswer":{"@type":"Answer","text":"You speak directly with Attorney Grisanti — not an intake screener. We listen to the facts, identify the legal questions in play, and give you an honest read on whether the matter is worth pursuing and what representation would cost. There is no obligation to retain the firm after the consultation."}},
+    {"@type":"Question","name":"How long do I have to file a personal injury claim in New Jersey?","acceptedAnswer":{"@type":"Answer","text":"New Jersey sets specific statutes of limitations for personal injury claims, and the deadlines are short — generally two years from the date of injury for most negligence claims, with different rules for workers' compensation, claims against public entities, and other categories. Because exceptions and shortened windows apply, call promptly to confirm the deadline that applies to your situation."}},
+    {"@type":"Question","name":"What is the attorney review period in a New Jersey real estate contract?","acceptedAnswer":{"@type":"Answer","text":"Most residential real estate contracts in New Jersey include a three-business-day attorney review period after the contract is signed by both buyer and seller. During this window, either party's attorney can disapprove, modify, or terminate the contract. Using this period properly is one of the main reasons New Jersey buyers and sellers retain attorneys for residential closings."}},
+    {"@type":"Question","name":"Do I need a lawyer for a first-offense DWI in New Jersey?","acceptedAnswer":{"@type":"Answer","text":"A DWI conviction carries fines, surcharges, possible ignition-interlock requirements, and downstream consequences for insurance, employment, and travel. Even a first offense is heavily fact-dependent — police reports, calibration records, observation periods, and Alcotest procedures all create avenues for defense. Speak with an attorney before deciding how to plead."}},
+    {"@type":"Question","name":"What is the difference between a will and a living will?","acceptedAnswer":{"@type":"Answer","text":"A last will and testament directs how your assets are distributed and who serves as guardian of minor children after your death. A living will (also called an advance directive) gives instructions about medical treatment if you become unable to make decisions for yourself. They serve different purposes and most estate plans include both, along with a power of attorney."}},
+    {"@type":"Question","name":"What does 'no legal fee unless we recover' mean for a personal injury case?","acceptedAnswer":{"@type":"Answer","text":"On a contingency-fee personal injury matter, the firm's legal fee is taken as a percentage of any recovery — if there is no recovery, there is no legal fee. Case costs (filing fees, expert witnesses, medical records, court reporters, etc.) are separate from fees and may still be the client's responsibility depending on the engagement. The specifics are spelled out in the written retainer agreement."}}
+  ]
+}
+</script>
+
+<style>
+:root{
+  --paper:#EFE9DD;
+  --paper-2:#E6DFCF;
+  --paper-3:#DBD2BD;
+  --ink:#0E1318;
+  --ink-2:#2A2A2A;
+  --muted:#5C5448;
+  --rule:#C9BFA9;
+  --oxblood:#7A1F1F;
+  --oxblood-2:#5C1818;
+  --brass:#A8884B;
+  --brass-2:#C9A968;
+  --serif-display:'Fraunces', 'Times New Roman', serif;
+  --serif-body:'Newsreader', Georgia, serif;
+  --w:1240px;
+}
+
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{
+  background:var(--paper);
+  color:var(--ink);
+  font-family:var(--serif-body);
+  font-size:18px;
+  line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+  overflow-x:hidden;
+}
+
+body::before{
+  content:'';
+  position:fixed;
+  inset:0;
+  pointer-events:none;
+  z-index:1;
+  opacity:.32;
+  mix-blend-mode:multiply;
+  background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0.06 0 0 0 0 0.06 0 0 0 0 0.06 0 0 0 0.08 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+a{color:inherit;text-decoration:none;}
+img{max-width:100%;display:block;}
+
+.skip{position:absolute;left:-9999px;top:0;background:var(--ink);color:var(--paper);padding:12px 18px;font-size:14px;z-index:9999;}
+.skip:focus{left:8px;top:8px;}
+
+.container{width:100%;max-width:var(--w);margin:0 auto;padding:0 32px;position:relative;z-index:2;}
+
+/* UTILITY BAR */
+.utility{background:var(--ink);color:var(--paper);font-family:var(--serif-body);font-size:13px;letter-spacing:.04em;position:relative;z-index:5;}
+.utility .container{display:flex;justify-content:space-between;align-items:center;padding-top:10px;padding-bottom:10px;flex-wrap:wrap;gap:8px;}
+.utility-left{display:flex;gap:24px;flex-wrap:wrap;align-items:center;}
+.utility-left a span{color:var(--brass);}
+.utility-right{color:var(--brass);font-style:italic;font-family:var(--serif-display);font-weight:400;}
+.utility a:hover{color:var(--brass);}
+
+/* NAV */
+.nav{position:sticky;top:0;z-index:50;background:var(--paper);border-bottom:1px solid var(--rule);transition:box-shadow .3s ease;}
+.nav.scrolled{box-shadow:0 4px 24px rgba(14,19,24,.08);}
+.nav .container{display:flex;align-items:center;justify-content:space-between;padding-top:20px;padding-bottom:20px;gap:24px;}
+.brand{font-family:var(--serif-display);font-weight:500;font-size:21px;letter-spacing:-.005em;line-height:1.05;}
+.brand .first{display:block;font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:var(--muted);font-weight:500;margin-bottom:4px;font-family:var(--serif-body);}
+.brand .name{display:block;}
+.brand .name .ital{font-style:italic;font-weight:400;color:var(--oxblood);}
+.nav-links{display:flex;gap:32px;font-size:14px;letter-spacing:.05em;text-transform:uppercase;font-family:var(--serif-body);font-weight:500;}
+.nav-links a{position:relative;padding-bottom:4px;transition:color .2s;}
+.nav-links a::after{content:'';position:absolute;left:0;right:0;bottom:0;height:1px;background:var(--oxblood);transform:scaleX(0);transform-origin:right;transition:transform .35s cubic-bezier(.77,0,.18,1);}
+.nav-links a:hover{color:var(--oxblood);}
+.nav-links a:hover::after{transform:scaleX(1);transform-origin:left;}
+.nav-cta{background:var(--oxblood);color:var(--paper);padding:13px 22px;font-family:var(--serif-body);font-size:13px;letter-spacing:.1em;text-transform:uppercase;font-weight:600;transition:background .2s,transform .2s;}
+.nav-cta:hover{background:var(--oxblood-2);transform:translateY(-1px);}
+.nav-menu{display:none;background:none;border:none;color:var(--ink);font-size:24px;cursor:pointer;padding:8px;}
+
+/* HERO */
+.hero{position:relative;padding:80px 0 100px;overflow:hidden;}
+.hero::before{content:'';position:absolute;top:-200px;right:-200px;width:700px;height:700px;background:radial-gradient(circle,rgba(168,136,75,.14) 0%,transparent 60%);pointer-events:none;}
+.hero-grid{display:grid;grid-template-columns:1fr 380px;gap:80px;align-items:start;}
+.eyebrow{font-family:var(--serif-body);font-size:12px;letter-spacing:.32em;text-transform:uppercase;color:var(--oxblood);font-weight:600;display:flex;align-items:center;gap:14px;margin-bottom:36px;}
+.eyebrow::before{content:'';width:48px;height:1px;background:var(--oxblood);}
+.hero h1{font-family:var(--serif-display);font-weight:400;font-size:clamp(48px,7vw,96px);line-height:.95;letter-spacing:-.02em;margin-bottom:32px;}
+.hero h1 .ital{font-style:italic;font-weight:300;color:var(--oxblood);}
+.hero h1 .small{display:block;font-size:.45em;font-weight:400;font-style:italic;color:var(--muted);letter-spacing:-.005em;margin-top:8px;}
+.hero-lede{font-size:21px;line-height:1.55;color:var(--ink-2);max-width:560px;margin-bottom:40px;font-weight:300;}
+.hero-lede strong{font-weight:500;color:var(--ink);font-style:italic;}
+.hero-ctas{display:flex;gap:16px;flex-wrap:wrap;align-items:center;}
+.btn{display:inline-flex;align-items:center;gap:12px;padding:18px 32px;font-family:var(--serif-body);font-size:14px;letter-spacing:.12em;text-transform:uppercase;font-weight:600;transition:all .25s;border:1px solid transparent;cursor:pointer;}
+.btn-primary{background:var(--ink);color:var(--paper);}
+.btn-primary:hover{background:var(--oxblood);transform:translateY(-2px);}
+.btn-ghost{background:transparent;color:var(--ink);border-color:var(--ink);}
+.btn-ghost:hover{background:var(--ink);color:var(--paper);}
+.btn .arrow{display:inline-block;transition:transform .25s;}
+.btn:hover .arrow{transform:translateX(4px);}
+
+.hero-card{background:var(--ink);color:var(--paper);padding:40px 36px;position:relative;margin-top:24px;}
+.hero-card::before{content:'';position:absolute;top:-12px;left:-12px;right:12px;bottom:12px;border:1px solid var(--oxblood);z-index:-1;}
+.hero-card-label{font-family:var(--serif-body);font-size:11px;letter-spacing:.28em;text-transform:uppercase;color:var(--brass);margin-bottom:8px;}
+.hero-card-title{font-family:var(--serif-display);font-size:24px;font-weight:400;font-style:italic;margin-bottom:24px;line-height:1.2;}
+.hero-card-phone{font-family:var(--serif-display);font-size:38px;font-weight:500;letter-spacing:-.01em;display:block;margin-bottom:8px;color:var(--paper);}
+.hero-card-phone:hover{color:var(--brass);}
+.hero-card-note{font-size:14px;color:rgba(239,233,221,.7);margin-bottom:28px;font-style:italic;}
+.hero-card-list{list-style:none;border-top:1px solid rgba(168,136,75,.3);padding-top:20px;}
+.hero-card-list li{display:flex;align-items:flex-start;gap:10px;font-size:14px;margin-bottom:10px;color:rgba(239,233,221,.88);line-height:1.5;}
+.hero-card-list li::before{content:'✓';color:var(--brass);font-weight:700;flex-shrink:0;}
+
+/* CREDENTIALS */
+.creds{background:var(--ink);color:var(--paper);padding:60px 0;position:relative;}
+.creds::before{content:'';position:absolute;inset:0;background:linear-gradient(90deg,transparent 0%,rgba(168,136,75,.06) 50%,transparent 100%);pointer-events:none;}
+.creds-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:0;}
+.cred{padding:0 32px;text-align:center;border-right:1px solid rgba(168,136,75,.25);}
+.cred:last-child{border-right:none;}
+.cred-num{font-family:var(--serif-display);font-size:64px;font-weight:300;line-height:1;color:var(--brass-2);letter-spacing:-.02em;margin-bottom:12px;font-style:italic;}
+.cred-num .plus{font-size:.6em;vertical-align:top;}
+.cred-label{font-family:var(--serif-body);font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:rgba(239,233,221,.78);line-height:1.5;}
+.cred-label strong{display:block;color:var(--paper);font-weight:600;letter-spacing:.18em;margin-bottom:4px;}
+
+/* SECTION SHARED */
+section{position:relative;}
+.section{padding:120px 0;}
+.section-eyebrow{font-family:var(--serif-body);font-size:12px;letter-spacing:.32em;text-transform:uppercase;color:var(--oxblood);font-weight:600;margin-bottom:24px;display:flex;align-items:center;gap:14px;}
+.section-eyebrow::before{content:'';width:36px;height:1px;background:var(--oxblood);}
+.section-title{font-family:var(--serif-display);font-weight:400;font-size:clamp(36px,5vw,56px);line-height:1.05;letter-spacing:-.02em;margin-bottom:24px;max-width:820px;}
+.section-title .ital{font-style:italic;color:var(--oxblood);font-weight:300;}
+.section-intro{font-size:19px;color:var(--ink-2);max-width:680px;line-height:1.65;margin-bottom:64px;font-weight:300;}
+
+/* ABOUT */
+.about{background:var(--paper-2);border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);}
+.about-grid{display:grid;grid-template-columns:1.1fr 1fr;gap:80px;align-items:center;}
+
+.about-portrait{position:relative;aspect-ratio:4/5;background:linear-gradient(165deg,#1a2530 0%,#0E1318 100%);overflow:hidden;display:flex;align-items:center;justify-content:center;}
+.about-portrait::before{content:'';position:absolute;inset:0;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cdefs%3E%3Cpattern id='g' width='10' height='10' patternUnits='userSpaceOnUse'%3E%3Cpath d='M 10 0 L 0 0 0 10' fill='none' stroke='%23A8884B' stroke-width='.15' opacity='.5'/%3E%3C/pattern%3E%3C/defs%3E%3Crect width='100' height='100' fill='url(%23g)'/%3E%3C/svg%3E");}
+.about-portrait::after{content:'';position:absolute;inset:-1px;border:1px solid rgba(168,136,75,.3);pointer-events:none;}
+.portrait-inner{position:relative;z-index:2;text-align:center;padding:40px;color:var(--paper);width:100%;}
+.portrait-mono{font-family:var(--serif-body);font-size:11px;letter-spacing:.32em;text-transform:uppercase;color:var(--brass);margin-bottom:32px;}
+.portrait-mono::after{content:'';display:block;width:32px;height:1px;background:var(--brass);margin:14px auto 0;}
+.portrait-name{font-family:var(--serif-display);font-size:clamp(34px,5vw,52px);font-weight:300;line-height:1;letter-spacing:-.02em;margin-bottom:14px;}
+.portrait-name .ital{font-style:italic;color:var(--brass-2);}
+.portrait-title{font-family:var(--serif-display);font-size:16px;font-style:italic;font-weight:300;color:rgba(239,233,221,.8);letter-spacing:.04em;margin-bottom:48px;}
+.portrait-marks{display:flex;flex-direction:column;gap:8px;font-family:var(--serif-body);font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:rgba(239,233,221,.65);border-top:1px solid rgba(168,136,75,.25);padding-top:24px;}
+.portrait-marks span{color:var(--brass);}
+
+.about-body p{margin-bottom:20px;color:var(--ink-2);line-height:1.7;}
+.about-body p.lede{font-size:21px;font-weight:300;color:var(--ink);font-style:italic;line-height:1.55;}
+.about-body p.lede::first-letter{font-family:var(--serif-display);font-size:64px;float:left;line-height:.85;margin:8px 12px 0 -2px;color:var(--oxblood);font-style:normal;font-weight:500;}
+.about-creds{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:40px;padding-top:32px;border-top:1px solid var(--rule);}
+.about-cred-label{font-family:var(--serif-body);font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);margin-bottom:6px;}
+.about-cred-value{font-family:var(--serif-display);font-size:18px;font-weight:500;color:var(--ink);line-height:1.3;}
+
+/* PRACTICE */
+.practice-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:0;border-top:1px solid var(--rule);border-left:1px solid var(--rule);}
+.practice{border-right:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:56px 48px;background:var(--paper);position:relative;transition:background .35s ease;cursor:default;}
+.practice:hover{background:var(--paper-2);}
+.practice-num{font-family:var(--serif-display);font-size:14px;font-weight:400;font-style:italic;color:var(--oxblood);letter-spacing:.06em;margin-bottom:20px;display:block;}
+.practice h3{font-family:var(--serif-display);font-size:32px;font-weight:400;line-height:1.1;letter-spacing:-.01em;margin-bottom:20px;}
+.practice h3 .ital{font-style:italic;color:var(--oxblood);font-weight:300;}
+.practice p{font-size:16px;color:var(--ink-2);line-height:1.65;margin-bottom:24px;}
+.practice-tags{display:flex;flex-wrap:wrap;gap:8px;}
+.practice-tag{font-family:var(--serif-body);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);padding:5px 12px;border:1px solid var(--rule);border-radius:999px;font-weight:500;background:var(--paper);}
+.practice-fineprint{font-size:13px;font-style:italic;color:var(--muted);margin-top:18px;line-height:1.5;font-weight:300;display:block;}
+
+/* PROCESS */
+.process{background:var(--ink);color:var(--paper);}
+.process .section-eyebrow{color:var(--brass);}
+.process .section-eyebrow::before{background:var(--brass);}
+.process .section-title{color:var(--paper);}
+.process .section-title .ital{color:var(--brass-2);}
+.process .section-intro{color:rgba(239,233,221,.82);}
+.process-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:48px;margin-top:32px;}
+.step{position:relative;padding-top:32px;border-top:1px solid rgba(168,136,75,.3);}
+.step-num{position:absolute;top:-16px;left:0;background:var(--ink);padding-right:20px;font-family:var(--serif-display);font-size:14px;font-style:italic;color:var(--brass-2);letter-spacing:.1em;}
+.step h4{font-family:var(--serif-display);font-size:26px;font-weight:400;margin-bottom:16px;line-height:1.2;}
+.step p{color:rgba(239,233,221,.78);font-size:16px;line-height:1.65;}
+
+/* FAQ */
+.faq{background:var(--paper-2);border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);}
+.faq-grid{display:grid;grid-template-columns:1fr 1.4fr;gap:80px;align-items:start;}
+.faq-list{display:flex;flex-direction:column;}
+details.faq-item{border-bottom:1px solid var(--rule);padding:24px 0;}
+details.faq-item:first-child{border-top:1px solid var(--rule);}
+details.faq-item summary{list-style:none;cursor:pointer;display:flex;align-items:flex-start;justify-content:space-between;gap:24px;font-family:var(--serif-display);font-size:22px;font-weight:400;line-height:1.3;color:var(--ink);transition:color .2s;}
+details.faq-item summary::-webkit-details-marker{display:none;}
+details.faq-item summary::after{content:'+';flex-shrink:0;font-family:var(--serif-display);font-size:28px;font-weight:300;color:var(--oxblood);font-style:italic;line-height:1;transition:transform .3s ease;}
+details.faq-item[open] summary::after{content:'−';}
+details.faq-item summary:hover{color:var(--oxblood);}
+details.faq-item .answer{margin-top:16px;color:var(--ink-2);font-size:17px;line-height:1.7;padding-right:48px;}
+
+/* AREAS */
+.areas{background:var(--paper);padding:90px 0;text-align:center;}
+.areas-eyebrow{font-family:var(--serif-body);font-size:12px;letter-spacing:.32em;text-transform:uppercase;color:var(--oxblood);font-weight:600;margin-bottom:24px;}
+.areas-title{font-family:var(--serif-display);font-weight:300;font-size:clamp(28px,4vw,40px);font-style:italic;line-height:1.2;margin-bottom:48px;letter-spacing:-.01em;}
+.areas-title .ital{color:var(--oxblood);}
+.areas-list{display:flex;flex-wrap:wrap;justify-content:center;gap:0;font-family:var(--serif-display);font-size:22px;font-weight:400;letter-spacing:-.005em;color:var(--ink-2);max-width:880px;margin:0 auto;line-height:1.6;}
+.areas-list span{padding:0 18px;position:relative;}
+.areas-list span:not(:last-child)::after{content:'·';position:absolute;right:-6px;top:50%;transform:translateY(-50%);color:var(--brass);font-size:24px;}
+
+/* CONTACT */
+.contact{padding-bottom:120px;}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:start;}
+.contact-block{margin-bottom:36px;padding-bottom:36px;border-bottom:1px solid var(--rule);}
+.contact-block:last-child{border-bottom:none;}
+.contact-label{font-family:var(--serif-body);font-size:11px;letter-spacing:.28em;text-transform:uppercase;color:var(--oxblood);margin-bottom:14px;font-weight:600;}
+.contact-value{font-family:var(--serif-display);font-size:30px;font-weight:400;line-height:1.2;letter-spacing:-.01em;}
+.contact-value a:hover{color:var(--oxblood);}
+.contact-value.address{font-size:22px;font-style:italic;font-weight:300;}
+.contact-cta-row{display:flex;gap:16px;flex-wrap:wrap;margin-top:8px;}
+.contact-form{background:var(--paper-2);padding:36px;border:1px solid var(--rule);}
+.contact-form .form-label{font-family:var(--serif-body);font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);font-weight:600;margin-bottom:8px;display:block;}
+.contact-form input,.contact-form textarea{width:100%;background:var(--paper);border:1px solid var(--rule);padding:12px 14px;font-family:var(--serif-body);font-size:16px;color:var(--ink);margin-bottom:18px;transition:border .2s;}
+.contact-form input:focus,.contact-form textarea:focus{outline:none;border-color:var(--oxblood);}
+.contact-form textarea{resize:vertical;min-height:120px;}
+.contact-form-title{font-family:var(--serif-display);font-size:24px;font-weight:400;font-style:italic;margin-bottom:6px;}
+.contact-form-sub{font-size:14px;color:var(--muted);margin-bottom:28px;font-style:italic;}
+.contact-form button{width:100%;background:var(--ink);color:var(--paper);border:none;padding:16px;font-family:var(--serif-body);font-size:13px;letter-spacing:.14em;text-transform:uppercase;font-weight:600;cursor:pointer;transition:background .2s;}
+.contact-form button:hover{background:var(--oxblood);}
+.contact-form-note{font-size:11px;font-style:italic;color:var(--muted);text-align:center;margin-top:14px;line-height:1.5;}
+
+/* FOOTER */
+.footer{background:var(--ink);color:rgba(239,233,221,.7);padding:64px 0 32px;font-size:14px;}
+.footer-top{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:48px;padding-bottom:48px;border-bottom:1px solid rgba(168,136,75,.25);margin-bottom:32px;}
+.footer-brand{font-family:var(--serif-display);font-size:24px;font-weight:400;color:var(--paper);margin-bottom:8px;line-height:1.15;}
+.footer-brand .ital{color:var(--brass-2);font-style:italic;font-weight:300;}
+.footer-tag{font-style:italic;font-family:var(--serif-display);font-size:16px;color:rgba(239,233,221,.6);max-width:340px;line-height:1.5;margin-top:12px;}
+.footer-col h5{font-family:var(--serif-body);font-size:11px;letter-spacing:.28em;text-transform:uppercase;color:var(--brass-2);font-weight:600;margin-bottom:16px;}
+.footer-col a,.footer-col p{display:block;margin-bottom:8px;color:rgba(239,233,221,.78);}
+.footer-col a:hover{color:var(--paper);}
+.footer-bottom{display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px;font-size:12px;letter-spacing:.05em;color:rgba(239,233,221,.6);}
+.footer-bottom .ital{font-style:italic;}
+.disclaimer{font-size:11px;color:rgba(239,233,221,.5);max-width:880px;margin-top:18px;line-height:1.7;font-style:italic;}
+.disclaimer strong{font-style:normal;font-weight:600;color:rgba(239,233,221,.7);letter-spacing:.04em;}
+
+/* FAB */
+.fab{display:none;position:fixed;bottom:20px;right:20px;background:var(--oxblood);color:var(--paper);padding:16px 22px;font-family:var(--serif-body);font-weight:600;font-size:14px;letter-spacing:.1em;text-transform:uppercase;z-index:40;box-shadow:0 8px 28px rgba(122,31,31,.45);border-radius:999px;text-decoration:none;}
+
+/* REVEAL */
+.reveal{opacity:0;transform:translateY(28px);transition:opacity .9s cubic-bezier(.16,.84,.44,1),transform .9s cubic-bezier(.16,.84,.44,1);}
+.reveal.in{opacity:1;transform:none;}
+.reveal.d1{transition-delay:.08s;}
+.reveal.d2{transition-delay:.16s;}
+.reveal.d3{transition-delay:.24s;}
+.reveal.d4{transition-delay:.32s;}
+
+/* RESPONSIVE */
+@media (max-width:980px){
+  body{font-size:17px;}
+  .container{padding:0 22px;}
+  .nav-links,.nav-cta{display:none;}
+  .nav-menu{display:block;}
+  .nav.menu-open + .mobile-nav{display:block;}
+  .mobile-nav{display:none;background:var(--ink);padding:24px 22px 32px;position:relative;z-index:40;}
+  .mobile-nav a{display:block;color:var(--paper);font-family:var(--serif-body);font-size:15px;letter-spacing:.08em;text-transform:uppercase;padding:14px 0;border-bottom:1px solid rgba(168,136,75,.2);}
+  .mobile-nav a:last-child{color:var(--brass-2);font-style:italic;text-transform:none;font-size:18px;letter-spacing:0;font-family:var(--serif-display);border:none;padding-top:20px;}
+  .hero{padding:48px 0 64px;}
+  .hero-grid{grid-template-columns:1fr;gap:48px;}
+  .hero-card{margin-top:0;}
+  .hero-lede{font-size:18px;}
+  .creds{padding:40px 0;}
+  .creds-grid{grid-template-columns:1fr 1fr;gap:32px 0;}
+  .cred{padding:0 16px;border-bottom:1px solid rgba(168,136,75,.25);padding-bottom:24px;}
+  .cred:nth-child(2){border-right:none;}
+  .cred:nth-child(3),.cred:nth-child(4){border-bottom:none;padding-top:24px;}
+  .cred-num{font-size:48px;}
+  .section{padding:72px 0;}
+  .about-grid{grid-template-columns:1fr;gap:48px;}
+  .about-portrait{aspect-ratio:5/4;max-width:480px;margin:0 auto;width:100%;}
+  .practice-grid{grid-template-columns:1fr;}
+  .practice{padding:40px 28px;}
+  .practice h3{font-size:26px;}
+  .process-grid{grid-template-columns:1fr;gap:36px;}
+  .faq-grid{grid-template-columns:1fr;gap:40px;}
+  details.faq-item summary{font-size:19px;}
+  .areas-list{font-size:18px;}
+  .areas-list span{padding:0 12px;}
+  .contact-grid{grid-template-columns:1fr;gap:48px;}
+  .contact-value{font-size:24px;}
+  .footer-top{grid-template-columns:1fr 1fr;gap:32px;}
+  .footer-top > div:first-child{grid-column:1 / -1;}
+  .fab{display:inline-flex;align-items:center;gap:8px;}
+}
+@media (max-width:520px){
+  .hero h1{font-size:48px;}
+  .hero-card-phone{font-size:30px;}
+  .btn{padding:16px 22px;font-size:12px;}
+  .utility{font-size:12px;}
+  .utility .container{justify-content:center;}
+  .footer-top{grid-template-columns:1fr;}
+  .portrait-name{font-size:34px;}
+}
+
+/* PRINT */
+@media print{
+  body::before,.fab,.nav,.mobile-nav,.utility,.contact-form,.hero-ctas,details.faq-item summary::after{display:none !important;}
+  body{background:#fff;color:#000;font-size:11pt;}
+  .hero,.section,.contact,.creds{padding:24px 0;}
+  .hero-card{background:#fff;color:#000;border:1px solid #000;}
+  .hero-card-phone,.hero-card-list li,.hero-card-note{color:#000 !important;}
+  .footer,.process{background:#fff;color:#000;}
+  .step h4,.section-title,.process .section-title{color:#000 !important;}
+  details.faq-item{padding:8px 0;}
+  details.faq-item .answer{display:block !important;}
+  a{color:#000;text-decoration:underline;}
+  .about-portrait{display:none;}
+}
+
+a:focus-visible,button:focus-visible,summary:focus-visible,input:focus-visible,textarea:focus-visible{outline:2px solid var(--oxblood);outline-offset:2px;}
+</style>
+</head>
+<body>
+
+<a href="#main" class="skip">Skip to main content</a>
+
+<div class="utility">
+  <div class="container">
+    <div class="utility-left">
+      <a href="tel:+17325349005">Tel <span>732.534.9005</span></a>
+      <span style="opacity:.75;">Fax 732.534.9006</span>
+    </div>
+    <div class="utility-right">Free Initial Consultations</div>
+  </div>
+</div>
+
+<nav class="nav" id="nav" aria-label="Primary">
+  <div class="container">
+    <a href="#" class="brand" aria-label="Law Office of Joseph D. Grisanti — Home">
+      <span class="first">Law Office of</span>
+      <span class="name">Joseph D. <span class="ital">Grisanti</span></span>
+    </a>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#practice">Practice</a>
+      <a href="#process">Process</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <a href="tel:+17325349005" class="nav-cta">Call 732.534.9005</a>
+    <button class="nav-menu" id="navMenu" aria-label="Open menu" aria-expanded="false">☰</button>
+  </div>
+</nav>
+<div class="mobile-nav" id="mobileNav">
+  <a href="#about">About</a>
+  <a href="#practice">Practice Areas</a>
+  <a href="#process">Process</a>
+  <a href="#faq">FAQ</a>
+  <a href="#contact">Contact</a>
+  <a href="tel:+17325349005">Call 732.534.9005</a>
+</div>
+
+<main id="main">
+
+<header class="hero">
+  <div class="container">
+    <div class="hero-grid">
+      <div>
+        <div class="eyebrow reveal">Law Office of Joseph D. Grisanti</div>
+        <h1 class="reveal d1">
+          When experience<br>
+          <span class="ital">matters,</span>
+          <span class="small">put thirty years of it to work for you.</span>
+        </h1>
+        <p class="hero-lede reveal d2">
+          A <strong>former FBI Agent</strong> and <strong>former Prosecutor</strong> representing clients across Ocean County and New Jersey in municipal court, real estate, estate planning, and personal injury — with the perspective only three decades inside the system can provide.
+        </p>
+        <div class="hero-ctas reveal d3">
+          <a href="tel:+17325349005" class="btn btn-primary">
+            Call for a Free Consultation
+            <span class="arrow">→</span>
+          </a>
+          <a href="#practice" class="btn btn-ghost">View Practice Areas</a>
+        </div>
+      </div>
+
+      <aside class="hero-card reveal d2" aria-label="Contact card">
+        <div class="hero-card-label">Free Initial Consultation</div>
+        <div class="hero-card-title">Speak directly with the attorney.</div>
+        <a href="tel:+17325349005" class="hero-card-phone">732.534.9005</a>
+        <div class="hero-card-note">Mon–Fri, 9am–5pm · After-hours by appointment</div>
+        <ul class="hero-card-list">
+          <li>Direct attorney access — not a paralegal</li>
+          <li>Contingency-fee personal injury cases available</li>
+          <li>Brick, NJ — convenient to all Ocean County courts</li>
+        </ul>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="creds" aria-label="Credentials">
+  <div class="container">
+    <div class="creds-grid">
+      <div class="cred reveal">
+        <div class="cred-num">30<span class="plus">+</span></div>
+        <div class="cred-label"><strong>Years</strong>Practicing Law</div>
+      </div>
+      <div class="cred reveal d1">
+        <div class="cred-num">F.B.I.</div>
+        <div class="cred-label"><strong>Former Agent</strong>Federal Bureau<br>of Investigation</div>
+      </div>
+      <div class="cred reveal d2">
+        <div class="cred-num">D.A.</div>
+        <div class="cred-label"><strong>Former</strong>Prosecutor</div>
+      </div>
+      <div class="cred reveal d3">
+        <div class="cred-num">N.J.</div>
+        <div class="cred-label"><strong>Licensed</strong>Private Investigator</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section about" id="about">
+  <div class="container">
+    <div class="about-grid">
+
+      <!-- HEADSHOT PLACEHOLDER — swap with a real photo when ready. Replace this entire div with:
+           <div class="about-portrait" style="background-image:url('headshot.jpg');background-size:cover;background-position:center;"></div>
+           and remove the inner typography block. -->
+      <div class="about-portrait reveal" role="img" aria-label="Portrait placeholder for Joseph D. Grisanti">
+        <div class="portrait-inner">
+          <div class="portrait-mono">Of Counsel</div>
+          <div class="portrait-name">Joseph D.<br><span class="ital">Grisanti</span></div>
+          <div class="portrait-title">Attorney at Law</div>
+          <div class="portrait-marks">
+            <div>Member · <span>New Jersey Bar</span></div>
+            <div>Former Agent · <span>F.B.I.</span></div>
+            <div>Former <span>Prosecutor</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-body reveal d1">
+        <div class="section-eyebrow">About the firm</div>
+        <h2 class="section-title">A defense built<br>from <span class="ital">the other side</span> of the case file.</h2>
+        <p class="lede">Most attorneys learn the law from the outside looking in. Joseph D. Grisanti spent years working it from the inside — first as a Special Agent with the Federal Bureau of Investigation, then as a Prosecutor, before opening his Brick, New Jersey practice.</p>
+        <p>That trajectory shapes everything about how this firm approaches a case. Police reports get read the way an investigator wrote them. Charges get evaluated the way a prosecutor would weigh them at trial. And the work begins with the same question the other side is asking: what does the file actually prove — and what doesn't it?</p>
+        <p>For three decades, that perspective has guided real estate closings, estate plans, personal injury claims, and the full range of municipal court defense across Ocean County and beyond. Every client works directly with the attorney. Every case gets the same preparation.</p>
+
+        <div class="about-creds">
+          <!-- TODO: Confirm year of NJ Bar admission and any federal-court admissions (D.N.J., etc.) -->
+          <div>
+            <div class="about-cred-label">Admitted</div>
+            <div class="about-cred-value">New Jersey Bar</div>
+          </div>
+          <div>
+            <div class="about-cred-label">Former Service</div>
+            <div class="about-cred-value">F.B.I. · Prosecutor</div>
+          </div>
+          <div>
+            <div class="about-cred-label">Licensure</div>
+            <div class="about-cred-value">N.J. Private Investigator</div>
+          </div>
+          <div>
+            <div class="about-cred-label">Office</div>
+            <div class="about-cred-value">Brick, New Jersey</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="practice">
+  <div class="container">
+    <div class="section-eyebrow reveal">Practice Areas</div>
+    <h2 class="section-title reveal d1">Four focused practices,<br><span class="ital">handled personally.</span></h2>
+    <p class="section-intro reveal d2">No menu of services we don't actually do. These are the areas the firm has built its reputation on — handled by the attorney himself, from first call to resolution.</p>
+
+    <div class="practice-grid">
+      <article class="practice reveal">
+        <span class="practice-num">— 01</span>
+        <h3>Municipal Court <span class="ital">&amp; DWI</span></h3>
+        <p>From a first-offense D.W.I. to driving while suspended, traffic violations, possession of C.D.S., and disorderly persons offenses — we prepare each case by reviewing every police report, lab result, and witness statement to build the strongest possible defense.</p>
+        <div class="practice-tags">
+          <span class="practice-tag">D.W.I.</span>
+          <span class="practice-tag">Traffic</span>
+          <span class="practice-tag">C.D.S.</span>
+          <span class="practice-tag">Disorderly Persons</span>
+        </div>
+      </article>
+
+      <article class="practice reveal d1">
+        <span class="practice-num">— 02</span>
+        <h3>Real Estate <span class="ital">Transactions</span></h3>
+        <p>Legal representation for residential and commercial purchases and sales — including the New Jersey three-business-day attorney review period, contract negotiation, title issues, and closing. We protect your interests at every step of the deal, and we don't hand it off to a junior associate.</p>
+        <div class="practice-tags">
+          <span class="practice-tag">Residential</span>
+          <span class="practice-tag">Commercial</span>
+          <span class="practice-tag">Attorney Review</span>
+          <span class="practice-tag">Closings</span>
+        </div>
+      </article>
+
+      <article class="practice reveal d2">
+        <span class="practice-num">— 03</span>
+        <h3>Wills &amp; <span class="ital">Estate Planning</span></h3>
+        <p>Wills, powers of attorney, and living wills built around the plan that's right for your family. We review your goals for asset distribution and guardianship, then prepare the documentation that ensures your wishes are carried out as you intended.</p>
+        <div class="practice-tags">
+          <span class="practice-tag">Wills</span>
+          <span class="practice-tag">Living Wills</span>
+          <span class="practice-tag">Power of Attorney</span>
+          <span class="practice-tag">Guardianship</span>
+        </div>
+      </article>
+
+      <article class="practice reveal d3">
+        <span class="practice-num">— 04</span>
+        <h3>Personal <span class="ital">Injury</span></h3>
+        <p>If you've been injured through someone else's negligence or in the course of your employment, you may be entitled to compensation. We review the facts and pursue the best possible result on a contingency-fee basis.</p>
+        <div class="practice-tags">
+          <span class="practice-tag">Auto Accidents</span>
+          <span class="practice-tag">Workplace Injury</span>
+          <span class="practice-tag">Negligence</span>
+          <span class="practice-tag">Contingency Fee</span>
+        </div>
+        <span class="practice-fineprint">No legal fee unless we recover for you. Case costs (filing fees, expert witnesses, medical records, etc.) are separate and may apply per the written retainer agreement. Results depend on the specific facts and circumstances of each case.</span>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section process" id="process">
+  <div class="container">
+    <div class="section-eyebrow reveal">How we work</div>
+    <h2 class="section-title reveal d1">Straightforward,<br><span class="ital">start to finish.</span></h2>
+    <p class="section-intro reveal d2">No call centers. No intake forms standing between you and the attorney. Here's what working with the firm actually looks like.</p>
+
+    <div class="process-grid">
+      <div class="step reveal">
+        <div class="step-num">— I.</div>
+        <h4>The free consultation</h4>
+        <p>You call the office and speak with the attorney directly. We listen to the facts, identify the legal questions in play, and tell you honestly whether you have a matter worth pursuing — and what it will cost if you do.</p>
+      </div>
+      <div class="step reveal d1">
+        <div class="step-num">— II.</div>
+        <h4>The review</h4>
+        <p>If you engage the firm, we read every document. Police report. Contract. Lab result. Witness statement. We approach the file the way the other side did, and we look for what they missed.</p>
+      </div>
+      <div class="step reveal d2">
+        <div class="step-num">— III.</div>
+        <h4>The resolution</h4>
+        <p>Whether that means a negotiated outcome, a closing table, an executed estate plan, or a courtroom — you get the same preparation either way. And you hear it from the attorney, not a message left with someone else.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section faq" id="faq">
+  <div class="container">
+    <div class="faq-grid">
+      <div>
+        <div class="section-eyebrow reveal">Frequently Asked</div>
+        <h2 class="section-title reveal d1">Questions worth<br><span class="ital">answering up front.</span></h2>
+        <p class="section-intro reveal d2" style="margin-bottom:0;">Quick answers to what clients most often ask before picking up the phone. For anything specific to your situation, call — the consultation is free.</p>
+      </div>
+
+      <div class="faq-list reveal d1">
+        <details class="faq-item">
+          <summary>What happens during a free initial consultation?</summary>
+          <div class="answer">You speak directly with Attorney Grisanti — not an intake screener. We listen to the facts, identify the legal questions in play, and give you an honest read on whether the matter is worth pursuing and what representation would cost. There is no obligation to retain the firm after the consultation.</div>
+        </details>
+
+        <details class="faq-item">
+          <summary>How long do I have to file a personal injury claim in New Jersey?</summary>
+          <div class="answer">New Jersey sets specific statutes of limitations for personal injury claims, and the deadlines are short — generally two years from the date of injury for most negligence claims, with different rules for workers' compensation, claims against public entities, and other categories. Because exceptions and shortened windows apply, call promptly to confirm the deadline that applies to your situation.</div>
+        </details>
+
+        <details class="faq-item">
+          <summary>What is the attorney review period in a New Jersey real estate contract?</summary>
+          <div class="answer">Most residential real estate contracts in New Jersey include a three-business-day attorney review period after the contract is signed by both buyer and seller. During this window, either party's attorney can disapprove, modify, or terminate the contract. Using this period properly is one of the main reasons New Jersey buyers and sellers retain attorneys for residential closings.</div>
+        </details>
+
+        <details class="faq-item">
+          <summary>Do I need a lawyer for a first-offense DWI in New Jersey?</summary>
+          <div class="answer">A DWI conviction carries fines, surcharges, possible ignition-interlock requirements, and downstream consequences for insurance, employment, and travel. Even a first offense is heavily fact-dependent — police reports, calibration records, observation periods, and Alcotest procedures all create avenues for defense. Speak with an attorney before deciding how to plead.</div>
+        </details>
+
+        <details class="faq-item">
+          <summary>What is the difference between a will and a living will?</summary>
+          <div class="answer">A last will and testament directs how your assets are distributed and who serves as guardian of minor children after your death. A living will (also called an advance directive) gives instructions about medical treatment if you become unable to make decisions for yourself. They serve different purposes — most complete estate plans include both, along with a power of attorney.</div>
+        </details>
+
+        <details class="faq-item">
+          <summary>What does "no legal fee unless we recover" mean for a personal injury case?</summary>
+          <div class="answer">On a contingency-fee personal injury matter, the firm's legal fee is taken as a percentage of any recovery — if there is no recovery, there is no legal fee. Case costs (filing fees, expert witnesses, medical records, court reporters, etc.) are separate from fees and may still be the client's responsibility depending on the engagement. The specifics are spelled out in the written retainer agreement reviewed with you before representation begins.</div>
+        </details>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="areas" aria-label="Areas Served">
+  <div class="container">
+    <div class="areas-eyebrow reveal">Areas Served</div>
+    <h2 class="areas-title reveal d1">Brick &amp; <span class="ital">all of Ocean County,</span> New Jersey</h2>
+    <div class="areas-list reveal d2">
+      <span>Brick</span><span>Toms River</span><span>Point Pleasant</span><span>Lakewood</span><span>Jackson</span><span>Manahawkin</span><span>Wall</span><span>Howell</span><span>Lavallette</span><span>Seaside Heights</span>
+    </div>
+  </div>
+</section>
+
+<section class="contact section" id="contact">
+  <div class="container">
+    <div class="section-eyebrow reveal">Contact</div>
+    <h2 class="section-title reveal d1">The first call <span class="ital">is free.</span><br>Take it.</h2>
+    <p class="section-intro reveal d2">Reach the office directly during business hours, or leave a message after hours and we'll return your call promptly. Prefer to write? Use the message form.</p>
+
+    <div class="contact-grid">
+      <div class="contact-info">
+
+        <div class="contact-block reveal">
+          <div class="contact-label">By Phone</div>
+          <div class="contact-value"><a href="tel:+17325349005">732.534.9005</a></div>
+          <div style="font-size:14px;color:var(--muted);margin-top:8px;font-style:italic;">Fax · 732.534.9006</div>
+        </div>
+
+        <div class="contact-block reveal d1">
+          <div class="contact-label">Office</div>
+          <div class="contact-value address">1808 Route 88 East<br>Brick, NJ 08724</div>
+          <div class="contact-cta-row" style="margin-top:20px;">
+            <a href="https://maps.google.com/?q=1808+Route+88+E+Brick+NJ+08724" target="_blank" rel="noopener" class="btn btn-ghost" style="padding:12px 22px;font-size:12px;">Get Directions →</a>
+          </div>
+        </div>
+
+        <div class="contact-block reveal d2">
+          <div class="contact-label">Hours</div>
+          <div style="font-family:var(--serif-display);font-size:20px;font-weight:400;line-height:1.5;">
+            Monday – Friday · 9:00 am – 5:00 pm<br>
+            <span style="font-style:italic;color:var(--muted);font-size:17px;">After-hours by appointment</span>
+          </div>
+        </div>
+
+        <div style="position:relative;aspect-ratio:1.3;background:var(--paper-2);border:1px solid var(--rule);overflow:hidden;margin-top:24px;" class="reveal d2">
+          <iframe
+            src="https://www.google.com/maps?q=1808+Route+88+E+Brick+NJ+08724&output=embed"
+            style="width:100%;height:100%;border:0;filter:grayscale(.35) sepia(.12) contrast(.95);"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Office location at 1808 Route 88 East, Brick, NJ">
+          </iframe>
+        </div>
+      </div>
+
+      <form class="contact-form reveal d1" id="contactForm" onsubmit="sendMessage(event)">
+        <div class="contact-form-title">Send a message</div>
+        <div class="contact-form-sub">Briefly describe your matter — the attorney will respond personally.</div>
+
+        <label class="form-label" for="cf-name">Your name</label>
+        <input type="text" id="cf-name" name="name" required autocomplete="name">
+
+        <label class="form-label" for="cf-email">Email</label>
+        <input type="email" id="cf-email" name="email" required autocomplete="email">
+
+        <label class="form-label" for="cf-phone">Phone (optional)</label>
+        <input type="tel" id="cf-phone" name="phone" autocomplete="tel">
+
+        <label class="form-label" for="cf-matter">Type of matter</label>
+        <input type="text" id="cf-matter" name="matter" placeholder="e.g., DWI, real estate closing, will, injury" required>
+
+        <label class="form-label" for="cf-message">Brief description</label>
+        <textarea id="cf-message" name="message" required></textarea>
+
+        <button type="submit">Send Message →</button>
+        <div class="contact-form-note">Submitting this form opens your email program with a pre-filled message. Sending an email does not by itself create an attorney-client relationship; please do not share confidential information until an engagement is in place.</div>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer" role="contentinfo">
+  <div class="container">
+    <div class="footer-top">
+      <div>
+        <div class="footer-brand">Law Office of<br>Joseph D. <span class="ital">Grisanti</span></div>
+        <div class="footer-tag">When experience matters, the Law Office of Joseph D. Grisanti puts experience to work for you.</div>
+      </div>
+      <div class="footer-col">
+        <h5>Practice</h5>
+        <a href="#practice">Municipal Court &amp; D.W.I.</a>
+        <a href="#practice">Real Estate</a>
+        <a href="#practice">Estate Planning</a>
+        <a href="#practice">Personal Injury</a>
+      </div>
+      <div class="footer-col">
+        <h5>Firm</h5>
+        <a href="#about">About</a>
+        <a href="#process">Process</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h5>Office</h5>
+        <p>1808 Route 88 East<br>Brick, NJ 08724</p>
+        <a href="tel:+17325349005">732.534.9005</a>
+        <p style="opacity:.65;">Fax · 732.534.9006</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© <span id="yr"></span> Law Office of Joseph D. Grisanti · All Rights Reserved</div>
+      <div class="ital">Attorney Advertising · Brick, New Jersey</div>
+    </div>
+    <p class="disclaimer">
+      <strong>Disclaimer.</strong> The information on this website is provided for general informational purposes only and is not legal advice. No attorney-client relationship is formed by viewing this website, sending an email, or submitting the contact form. Please do not transmit confidential information until a written engagement is in place. Prior results do not guarantee a similar outcome — every legal matter depends on its specific facts and circumstances, and results may vary. Joseph D. Grisanti is licensed to practice law in the State of New Jersey.
+    </p>
+  </div>
+</footer>
+
+<a href="tel:+17325349005" class="fab" aria-label="Call the office now">📞 Call Now</a>
+
+<script>
+document.getElementById('yr').textContent = new Date().getFullYear();
+
+const nav = document.getElementById('nav');
+window.addEventListener('scroll', () => {
+  nav.classList.toggle('scrolled', window.scrollY > 8);
+}, {passive:true});
+
+const menuBtn = document.getElementById('navMenu');
+const mobileNav = document.getElementById('mobileNav');
+menuBtn.addEventListener('click', () => {
+  const open = nav.classList.toggle('menu-open');
+  menuBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+});
+mobileNav.querySelectorAll('a').forEach(a => {
+  a.addEventListener('click', () => {
+    nav.classList.remove('menu-open');
+    menuBtn.setAttribute('aria-expanded', 'false');
+  });
+});
+
+const io = new IntersectionObserver((entries) => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      e.target.classList.add('in');
+      io.unobserve(e.target);
+    }
+  });
+}, {threshold:.12, rootMargin:'0px 0px -40px 0px'});
+document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+
+function sendMessage(e){
+  e.preventDefault();
+  const name = document.getElementById('cf-name').value.trim();
+  const email = document.getElementById('cf-email').value.trim();
+  const phone = document.getElementById('cf-phone').value.trim();
+  const matter = document.getElementById('cf-matter').value.trim();
+  const message = document.getElementById('cf-message').value.trim();
+
+  const subject = encodeURIComponent(`Website inquiry: ${matter} — ${name}`);
+  const body = encodeURIComponent(
+`Name: ${name}
+Email: ${email}
+Phone: ${phone}
+Type of matter: ${matter}
+
+${message}
+
+— Sent via jgrisantilaw.com contact form`
+  );
+
+  // TODO: Replace with Joseph's preferred intake email address
+  const to = 'info@jgrisantilaw.com';
+  window.location.href = `mailto:${to}?subject=${subject}&body=${body}`;
+}
+</script>
+
+</body>
+</html>

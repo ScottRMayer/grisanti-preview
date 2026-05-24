@@ -1,0 +1,7 @@
+# Law Office of Joseph D. Grisanti
+# https://www.jgrisantilaw.com/
+
+User-agent: *
+Allow: /
+
+Sitemap: https://www.jgrisantilaw.com/sitemap.xml
